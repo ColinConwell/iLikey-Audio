@@ -28,3 +28,20 @@ export { AnonymousAuthProvider } from "./auth.js";
 
 // Integrations
 export { SpotifyMediaDetector, SpotifyAuthProvider } from "./spotify.js";
+
+// Suno / Kie AI
+export {
+  SunoClient,
+  SunoApiError,
+  SUNO_STYLE_PRESETS,
+  SUNO_MODELS,
+} from "./suno.js";
+export type {
+  SunoModel,
+  SunoGenerateRequest,
+  SunoExtendRequest,
+  SunoLyricsRequest,
+  SunoTrack,
+  SunoTaskStatus,
+  SunoTaskResult,
+} from "./suno.js";

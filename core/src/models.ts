@@ -129,7 +129,7 @@ export const SECTION_COLORS: Record<SectionType, string> = {
 // ── Helper: create new instances ──
 
 export function createSong(
-  data: Omit<Song, "id" | "createdAt" | "updatedAt"> & { id?: string }
+  data: Omit<Song, "id" | "createdAt" | "updatedAt" | "artist"> & { id?: string; artist?: string }
 ): Song {
   const now = new Date().toISOString();
   return Song.parse({

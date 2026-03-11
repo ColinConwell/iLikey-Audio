@@ -1,11 +1,13 @@
 import { Outlet, NavLink } from "react-router-dom";
-import { Music, Library, Settings } from "lucide-react";
+import { Music, Library, Settings, FlaskConical, Wand2 } from "lucide-react";
 import { cn } from "../lib/utils";
 
 const navItems = [
   { to: "/", icon: Music, label: "Now Playing" },
   { to: "/library", icon: Library, label: "Library" },
+  { to: "/generate", icon: Wand2, label: "Generate" },
   { to: "/settings", icon: Settings, label: "Settings" },
+  { to: "/test", icon: FlaskConical, label: "Test" },
 ];
 
 export function Layout() {
