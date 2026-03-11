@@ -1,0 +1,6 @@
+packages:
+  - "core"
+  - "web"
+  - "desktop"
+  - "backend/fastapi"
+  - "backend/firebase"

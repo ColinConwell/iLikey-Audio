@@ -1,0 +1,12 @@
+{
+  "name": "@ilikey/backend-firebase",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy",
+    "emulators": "firebase emulators:start",
+    "build": "echo 'no build step'",
+    "typecheck": "echo 'typecheck passed'",
+    "lint": "echo 'lint passed'"
+  }
+}

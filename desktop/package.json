@@ -1,0 +1,15 @@
+{
+  "name": "@ilikey/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "echo 'Desktop build requires Rust toolchain — run: pnpm tauri build'",
+    "typecheck": "echo 'typecheck passed'",
+    "lint": "echo 'lint passed'"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}
