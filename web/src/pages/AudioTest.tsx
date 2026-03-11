@@ -4,25 +4,30 @@ import { useApp } from "../context/AppContext";
 import { formatTimestamp, cn } from "../lib/utils";
 import type { ManualMediaDetector } from "@ilikey/core";
 
-// Public domain / CC0 audio samples
+// Freely available test audio — SoundHelix (attribution: soundhelix.com)
 const TEST_TRACKS = [
   {
-    title: "Bach - Cello Suite No. 1",
-    artist: "Public Domain",
-    // Archive.org — public domain classical
-    url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Johann_Sebastian_Bach_-_Cello_Suite_No._1_in_G_major%2C_BWV_1007_-_I._Pr%C3%A9lude_%28excerpt%29.ogg",
+    title: "SoundHelix Song 1",
+    artist: "SoundHelix (CC)",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
     source: "local-file" as const,
   },
   {
-    title: "Chopin - Nocturne Op. 9 No. 2",
-    artist: "Public Domain",
-    url: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chopin_-_Nocturne_Op._9_No._2_%28Maurizio_Pollini%29.ogg",
+    title: "SoundHelix Song 2",
+    artist: "SoundHelix (CC)",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
     source: "local-file" as const,
   },
   {
-    title: "Mozart - Eine kleine Nachtmusik",
-    artist: "Public Domain",
-    url: "https://upload.wikimedia.org/wikipedia/commons/0/09/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg",
+    title: "SoundHelix Song 8",
+    artist: "SoundHelix (CC)",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    source: "local-file" as const,
+  },
+  {
+    title: "Sample 15s",
+    artist: "SampleLib (Free)",
+    url: "https://download.samplelib.com/mp3/sample-15s.mp3",
     source: "local-file" as const,
   },
 ];
