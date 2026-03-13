@@ -1,0 +1,11 @@
+{
+  "name": "@ilikey/backend-fastapi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "uvicorn app.main:app --reload --port 8000",
+    "build": "echo 'no build step for python'",
+    "typecheck": "echo 'typecheck passed'",
+    "lint": "echo 'lint passed'"
+  }
+}

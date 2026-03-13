@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nicholasio/tauri-conf-schema/main/schema.json",
+  "productName": "iLikey Audio",
+  "version": "0.1.0",
+  "identifier": "audio.ilikey.app",
+  "build": {
+    "frontendDist": "../../web/dist",
+    "devUrl": "http://localhost:3000",
+    "beforeDevCommand": "pnpm --filter @ilikey/web dev",
+    "beforeBuildCommand": "pnpm --filter @ilikey/web build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "iLikey Audio",
+        "width": 900,
+        "height": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' https: data:; connect-src 'self' https://api.spotify.com https://accounts.spotify.com"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

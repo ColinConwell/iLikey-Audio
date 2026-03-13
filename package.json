@@ -1,0 +1,24 @@
+{
+  "name": "ilikey-audio",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "description": "Cross-platform song tagging and sectioning app",
+  "scripts": {
+    "dev:web": "pnpm --filter @ilikey/web dev",
+    "dev:desktop": "pnpm --filter @ilikey/desktop dev",
+    "build": "turbo run build",
+    "build:web": "pnpm --filter @ilikey/web build",
+    "build:core": "pnpm --filter @ilikey/core build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
