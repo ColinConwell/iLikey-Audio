@@ -1,5 +1,35 @@
 # iLikey-Audio — Implementation Plan
 
+## Primary Goals / Request
+
+Main Proposal: Cross-Platform Song Tagging and Sectioning App
+
+## Concept:
+The application allows users to tag key points (timestamps) and sections of songs currently playing on their device. It captures metadata (e.g., song name, source, timestamp) and stores it in a user library. The user can toggle between tagging single points or sections.
+
+## Stack/Implementation Outline:
+- **Desktop Media Detection:**
+  - macOS: Media Player API / Now Playing Center
+  - Windows: Integrate via native media APIs or PowerShell-based media queries
+  - Linux: MPRIS (Media Player Remote Interface Specification)
+
+- **Mobile Media Detection:**
+  - iOS: Media Player API / Now Playing Center
+  - Android: MediaSession API
+
+- **Cross-Platform UI Framework:**
+  - Flutter (Dart) or React Native (JavaScript/TypeScript) to build a single codebase across iOS, Android, and desktop (macOS/Windows/Linux).
+
+- **Backend (for storing tagged metadata):**
+  - Option 1: Python (FastAPI) for a custom server-based solution
+  - Option 2: Firebase for a serverless, cloud-based solution with user authentication and real-time database
+
+- **Core Features:**
+  - Real-time “Now Playing” detection on all platforms.
+  - UI buttons for tagging single timestamps or song sections.
+  - Metadata capture (song name, artist, source, timestamp range).
+  - Persistent storage of tagged data for later retrieval.
+
 ## Architecture Overview
 
 ```

@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EB96931B2F97578600FDCBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9693052F97578500FDCBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB96930C2F97578500FDCBB0;
+			remoteInfo = "iLikeyAudio-App";
+		};
+		EB9693252F97578600FDCBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9693052F97578500FDCBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB96930C2F97578500FDCBB0;
+			remoteInfo = "iLikeyAudio-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB96930D2F97578500FDCBB0 /* iLikeyAudio-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iLikeyAudio-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB96931A2F97578600FDCBB0 /* iLikeyAudio-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iLikeyAudio-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9693242F97578600FDCBB0 /* iLikeyAudio-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iLikeyAudio-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB96930F2F97578500FDCBB0 /* iLikeyAudio-App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iLikeyAudio-App";
+			sourceTree = "<group>";
+		};
+		EB96931D2F97578600FDCBB0 /* iLikeyAudio-AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iLikeyAudio-AppTests";
+			sourceTree = "<group>";
+		};
+		EB9693272F97578600FDCBB0 /* iLikeyAudio-AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iLikeyAudio-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB96930A2F97578500FDCBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9693172F97578600FDCBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9693212F97578600FDCBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9693042F97578500FDCBB0 = {
+			isa = PBXGroup;
+			children = (
+				EB96930F2F97578500FDCBB0 /* iLikeyAudio-App */,
+				EB96931D2F97578600FDCBB0 /* iLikeyAudio-AppTests */,
+				EB9693272F97578600FDCBB0 /* iLikeyAudio-AppUITests */,
+				EB96930E2F97578500FDCBB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB96930E2F97578500FDCBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB96930D2F97578500FDCBB0 /* iLikeyAudio-App.app */,
+				EB96931A2F97578600FDCBB0 /* iLikeyAudio-AppTests.xctest */,
+				EB9693242F97578600FDCBB0 /* iLikeyAudio-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB96930C2F97578500FDCBB0 /* iLikeyAudio-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB96932E2F97578600FDCBB0 /* Build configuration list for PBXNativeTarget "iLikeyAudio-App" */;
+			buildPhases = (
+				EB9693092F97578500FDCBB0 /* Sources */,
+				EB96930A2F97578500FDCBB0 /* Frameworks */,
+				EB96930B2F97578500FDCBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB96930F2F97578500FDCBB0 /* iLikeyAudio-App */,
+			);
+			name = "iLikeyAudio-App";
+			packageProductDependencies = (
+			);
+			productName = "iLikeyAudio-App";
+			productReference = EB96930D2F97578500FDCBB0 /* iLikeyAudio-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9693192F97578600FDCBB0 /* iLikeyAudio-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9693312F97578600FDCBB0 /* Build configuration list for PBXNativeTarget "iLikeyAudio-AppTests" */;
+			buildPhases = (
+				EB9693162F97578600FDCBB0 /* Sources */,
+				EB9693172F97578600FDCBB0 /* Frameworks */,
+				EB9693182F97578600FDCBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB96931C2F97578600FDCBB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB96931D2F97578600FDCBB0 /* iLikeyAudio-AppTests */,
+			);
+			name = "iLikeyAudio-AppTests";
+			packageProductDependencies = (
+			);
+			productName = "iLikeyAudio-AppTests";
+			productReference = EB96931A2F97578600FDCBB0 /* iLikeyAudio-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB9693232F97578600FDCBB0 /* iLikeyAudio-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9693342F97578600FDCBB0 /* Build configuration list for PBXNativeTarget "iLikeyAudio-AppUITests" */;
+			buildPhases = (
+				EB9693202F97578600FDCBB0 /* Sources */,
+				EB9693212F97578600FDCBB0 /* Frameworks */,
+				EB9693222F97578600FDCBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9693262F97578600FDCBB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB9693272F97578600FDCBB0 /* iLikeyAudio-AppUITests */,
+			);
+			name = "iLikeyAudio-AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "iLikeyAudio-AppUITests";
+			productReference = EB9693242F97578600FDCBB0 /* iLikeyAudio-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9693052F97578500FDCBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					EB96930C2F97578500FDCBB0 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					EB9693192F97578600FDCBB0 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = EB96930C2F97578500FDCBB0;
+					};
+					EB9693232F97578600FDCBB0 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = EB96930C2F97578500FDCBB0;
+					};
+				};
+			};
+			buildConfigurationList = EB9693082F97578500FDCBB0 /* Build configuration list for PBXProject "iLikeyAudio-App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9693042F97578500FDCBB0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB96930E2F97578500FDCBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB96930C2F97578500FDCBB0 /* iLikeyAudio-App */,
+				EB9693192F97578600FDCBB0 /* iLikeyAudio-AppTests */,
+				EB9693232F97578600FDCBB0 /* iLikeyAudio-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB96930B2F97578500FDCBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9693182F97578600FDCBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9693222F97578600FDCBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9693092F97578500FDCBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9693162F97578600FDCBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9693202F97578600FDCBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB96931C2F97578600FDCBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB96930C2F97578500FDCBB0 /* iLikeyAudio-App */;
+			targetProxy = EB96931B2F97578600FDCBB0 /* PBXContainerItemProxy */;
+		};
+		EB9693262F97578600FDCBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB96930C2F97578500FDCBB0 /* iLikeyAudio-App */;
+			targetProxy = EB9693252F97578600FDCBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB96932C2F97578600FDCBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB96932D2F97578600FDCBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EB96932F2F97578600FDCBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "colinconwell.iLikeyAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB9693302F97578600FDCBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "colinconwell.iLikeyAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB9693322F97578600FDCBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "colinconwell.iLikeyAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLikeyAudio-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iLikeyAudio-App";
+			};
+			name = Debug;
+		};
+		EB9693332F97578600FDCBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "colinconwell.iLikeyAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLikeyAudio-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iLikeyAudio-App";
+			};
+			name = Release;
+		};
+		EB9693352F97578600FDCBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "colinconwell.iLikeyAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "iLikeyAudio-App";
+			};
+			name = Debug;
+		};
+		EB9693362F97578600FDCBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CD5PWPL44R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "colinconwell.iLikeyAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "iLikeyAudio-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9693082F97578500FDCBB0 /* Build configuration list for PBXProject "iLikeyAudio-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96932C2F97578600FDCBB0 /* Debug */,
+				EB96932D2F97578600FDCBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB96932E2F97578600FDCBB0 /* Build configuration list for PBXNativeTarget "iLikeyAudio-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96932F2F97578600FDCBB0 /* Debug */,
+				EB9693302F97578600FDCBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9693312F97578600FDCBB0 /* Build configuration list for PBXNativeTarget "iLikeyAudio-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9693322F97578600FDCBB0 /* Debug */,
+				EB9693332F97578600FDCBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9693342F97578600FDCBB0 /* Build configuration list for PBXNativeTarget "iLikeyAudio-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9693352F97578600FDCBB0 /* Debug */,
+				EB9693362F97578600FDCBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9693052F97578500FDCBB0 /* Project object */;
+}
